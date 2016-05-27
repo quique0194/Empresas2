@@ -1,0 +1,48 @@
+\documentclass[a4paper,openany,12pt]{book}
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{fancyhdr}
+\usepackage{ae}
+\usepackage[left=2.5cm,right=2.5cm,top=3cm,bottom=3cm]{geometry}
+\usepackage[printonlyused]{acronym}
+\usepackage{hlundef}
+\usepackage{tesis}
+
+\title{Easy Courier}
+
+\author{José Enrique Carrillo Pino\\
+		Charles Huamaní Cuba}
+
+\dedicado{}
+
+\orientador{Prof Erick Vargas Arenas}
+
+
+\begin{document}
+\maketitle %Compone la carátula y la dedicatoria
+
+
+\tableofcontents %Inserta el índice general
+\listoftables %Inserta el índice de cuadros
+\listoffigures %Inserta el índice de figuras
+
+\input{Resumen} %Inserta el resumen
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%   En esta parte deberas incluir los archivos de tu tesis   %%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\input{Introduccion}
+\input{Definicion_del_negocio}
+\input{Diagnostico_situacional}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibliographystyle{apalike}
+\bibliography{Bibliog}
+\addcontentsline{toc}{chapter}{Bibliografía}
+
+\end{document}
