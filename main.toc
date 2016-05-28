@@ -1,18 +1,25 @@
 \select@language {spanish}
-\contentsline {chapter}{Introducci\IeC {\'o}n}{7}
-\contentsline {chapter}{\numberline {1}Definici\IeC {\'o}n del Negocio}{8}
-\contentsline {section}{\numberline {1.1}Productos o servicios que se ofrecer\IeC {\'a}n}{8}
-\contentsline {section}{\numberline {1.2}Visi\IeC {\'o}n}{8}
-\contentsline {section}{\numberline {1.3}Misi\IeC {\'o}n}{8}
-\contentsline {chapter}{\numberline {2}Diagn\IeC {\'o}stico situacional}{9}
-\contentsline {section}{\numberline {2.1}An\IeC {\'a}lisis externo}{9}
-\contentsline {subsection}{\numberline {2.1.1}An\IeC {\'a}lisis del entorno}{9}
-\contentsline {subsubsection}{An\IeC {\'a}lisis P.E.S.T.E.}{9}
-\contentsline {subsection}{\numberline {2.1.2}An\IeC {\'a}lisis general de la industria}{9}
-\contentsline {subsection}{\numberline {2.1.3}An\IeC {\'a}lisis de las fuerzas competitivas de la industria}{9}
-\contentsline {section}{\numberline {2.2}An\IeC {\'a}lisis interno}{9}
-\contentsline {subsection}{\numberline {2.2.1}An\IeC {\'a}lisis AMOFHIT}{9}
-\contentsline {subsection}{\numberline {2.2.2}Recursos y capacidades de la empresa}{9}
-\contentsline {subsection}{\numberline {2.2.3}Ventaja competitiva actual}{9}
-\contentsline {subsection}{\numberline {2.2.4}Estructura organizativa}{9}
-\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{9}
+\contentsline {chapter}{Introducci\IeC {\'o}n}{8}
+\contentsline {chapter}{\numberline {1}Definici\IeC {\'o}n del Negocio}{9}
+\contentsline {section}{\numberline {1.1}Productos o servicios que se ofrecer\IeC {\'a}n}{9}
+\contentsline {section}{\numberline {1.2}Visi\IeC {\'o}n}{9}
+\contentsline {section}{\numberline {1.3}Misi\IeC {\'o}n}{9}
+\contentsline {chapter}{\numberline {2}Diagn\IeC {\'o}stico situacional}{10}
+\contentsline {section}{\numberline {2.1}An\IeC {\'a}lisis externo}{10}
+\contentsline {subsection}{\numberline {2.1.1}An\IeC {\'a}lisis del entorno}{10}
+\contentsline {subsubsection}{An\IeC {\'a}lisis Pol\IeC {\'\i }tico}{10}
+\contentsline {subsubsection}{An\IeC {\'a}lisis Econ\IeC {\'o}mico}{10}
+\contentsline {subsubsection}{An\IeC {\'a}lisis Social}{10}
+\contentsline {subsubsection}{An\IeC {\'a}lisis Tecnol\IeC {\'o}gico}{11}
+\contentsline {subsection}{\numberline {2.1.2}An\IeC {\'a}lisis general de la industria}{11}
+\contentsline {subsection}{\numberline {2.1.3}An\IeC {\'a}lisis de las fuerzas competitivas de la industria}{11}
+\contentsline {section}{\numberline {2.2}An\IeC {\'a}lisis interno}{11}
+\contentsline {subsection}{\numberline {2.2.1}An\IeC {\'a}lisis AMOFHIT}{11}
+\contentsline {subsection}{\numberline {2.2.2}Recursos y capacidades de la empresa}{11}
+\contentsline {subsection}{\numberline {2.2.3}Ventaja competitiva actual}{11}
+\contentsline {subsection}{\numberline {2.2.4}Estructura organizativa}{11}
+\contentsline {chapter}{\numberline {3}Objetivos y an\IeC {\'a}lisis estrat\IeC {\'e}gico}{12}
+\contentsline {section}{\numberline {3.1}Objetivos de la organizaci\IeC {\'o}n}{12}
+\contentsline {section}{\numberline {3.2}Objetivos de marketing}{12}
+\contentsline {section}{\numberline {3.3}Matriz FODA}{12}
+\contentsline {chapter}{Bibliograf\IeC {\'\i }a}{12}
