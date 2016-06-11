@@ -6,24 +6,28 @@
 \subsubsection{Análisis Político}
 Actualmente en el Perú se tiene una legislación de libre mercado. A pesar de que nos encontramos en pleno proceso electoral, las propuestas de los dos candidatos restantes no alteraran este hecho. Debido a que nuestro emprendimiento es digital, no hay una entidad reguladora, más allá de los impuestos que hay que tributar. Actualmente se está poniendo énfasis en el financiamiento de proyectos tecnológicos, por lo que será relativamente sencillo levantar capital para el proyecto.
 % Politicas de transporte, de seguridad en los taxis
+En el Perú se regulan los taxis clasificándolos en 3 categorías: independientes, de estación y remise.
 
 \subsubsection{Análisis Económico}
 La situación económica del país ha mejorado en el presente año. Prueba de esto es que el PBI se ha incrementado en un 4.4\% en el primer trimestre del 2016. Más aún, en el área de servicios, se ha incrementado un 4.8\%. Por otro lado, el año pasado se aprobó una ley que incentiva a las empresas a invertir en tecnología, haciendo que sea posible deducir los gastos en tecnología hasta en un 175\% para el cálculo del IR.
 % Analisis economico de los servicios de courier y tecnologia
+El sector transporte ha crecido en nuestro país. El mercado de taxis en Lima genera hasta 10 millones de soles por día. El mercado peruano de mensajería crecerá este año 25\% impulsado por un mayor consumo interno. El año pasado el Perú invirtión 0.7\% del PBI para mejorar la ciencia y la tecnología.
 
 \subsubsection{Análisis Social}
 La aceptación social de la tecnología también ha mejorado. Siendo que el número de usuarios de smartphones en el país se ha incrementado, sin embargo, esto sucede sólo en los centros urbanos. En los pueblos más alejados todavía no se asienta el uso de esta tecnología. El uso de dispositivos móviles es transversal a las clases sociales y a los estilos de vida. Finalmente, es importante notar que los consumidores prefieren descargar apps gratuitas.
 % costumbres de nuestra sociedad que pueden beneficiar o afectar la propuesta
+Los servicios de mensajería no son muy utilizados, las personas prefieren hacer sus entregas y recojos ellos mismos. Esto se debe en parte a la desconfianza en nuestra sociedad y a lafalta de servicios de courier serios y con presencia en el mercado.
 % servicios de delivery poco usados
 % desconfianza de la gente
 
 \subsubsection{Análisis Tecnológico}
-Existe toda la tecnología necesaria para desarrollar este proyecto. También hay una tecnología similar (Easy taxi), pero orientada al transporte de pasajeros, sin contar con un servicio de courier. El inconveniente es que esta tecnología estará restringida a usuarios de smartphones con conexión a internet. La tecnología sustituta que se usa normalmente para transporte de pasajeros es una llamada telefónica a las empresas de taxi. Sin embargo, la entrega de paquetes no tiene una tecnología sustituta, ya que la única forma de enviar un paquete a otro punto de la ciudad es llevarlo tu mismo o crear tu propio sistema de entregas en caso que seas una empresa.
+El uso de los teléfonos inteligentes está ampliamente difundido en nuestra sociedad. Los servicios en la nube abaratan los costos de los emprendimientos tecnológicos. Actualmente hay servicios de generación de rutas (google maps), de almacenamiento y procesamiento de grandes grafos (neo4j) y servidores en la nube (amazon ec2).
 % la gente tiene smartphones que son nuestra plataforma tecnologica, taxistas con gps
 % que usaremos: servicios de amazon ec2, neo4j, google maps
 
 
 \subsubsection{Análisis Ambiental}
+Nuestro país es uno de los más contaminados, especialmente nuestra ciudad Arequipa. Actualmente el gobierno tiene una política regional del ambiente. Nuestra propuesta es interesante porque podría optimizar el uso de los vehículos motorizados reduciendo la emisión de gases como el $CO_2$.
 % No hay, quiza el humo de los carros, pero nos vale verga
 % Podriamos optimizar el transporte y por lo tanto disminuir las emisiones de CO2
 
@@ -38,7 +42,7 @@ El 80\% de la población entre 12 y 70 años ya tenían un smartphone en Abril d
 No existe estacionalidad en nuestro servicio, ya que se utiliza constantemente a lo largo del año.
 
 \subsubsection{Tendencias del sector}
-Actualmente la tendencia más difundida es salir a la calle y parar un taxi cualquiera, y en situaciones donde la seguridad es más importante, se llama a una empresa de confianza para que envíe un taxi al lugar acordado. Para la entrega de paquetes la tendencia es designar un lugar para que la otra persona lo recoja o llevarlo uno mismo. No existe un sistema de entregas interurbano. Aunque si existen sistemas de entregas a otros departamentos como Olva Courier, estos no realizan entregas entre 2 puntos distintos de la ciudad, el paquete que ellos entregan debe ser dejado y recogido en sus oficinas en 2 ciudades distintas.
+Cuando las personas necesitan enviar o traer un paquete, suelen optar por alguna de las siguientes alternativas, llevan o traen el paquete ellas mismas, o envían a alquien. Y si se trata de una empresa, entonces implementan su propia forma de delivery o simplemente no tienen delivery en absoluto.
 % llevar el paquete
 % recoger el paquete
 % enviar a alguien de confianza con el paquete
@@ -49,13 +53,14 @@ Actualmente la tendencia más difundida es salir a la calle y parar un taxi cual
 Contamos con dos formas de crecimiento potencial, la primera es captar más clientes en la ciudad de Arequipa y pasar de un 10\% que es la meta para el primer año a un 50\% en el año siguiente. Y la otra forma de crecimiento es expandirnos a más ciudades del país, siendo las más llamativas las ciudades de Lima y Trujillo.
 
 \subsubsection{Infraestructura}
-No se necesita infraestructura física, ya que se utilizará a los propios taxistas de la ciudad. Sólo hacen falta 2 aplicaciones móviles, una para los usuarios, que se distribuirá libremente, y otra para los taxistas, que se les otorgará luego de pasar por un proceso de verificación de identidad.
+Como infraestructura física necesitamos una oficina donde nuestros desarrolladores programen la aplicación y un local donde se haga la verificación de los taxistas y los contratos con las empresas de taxi. Este local debe ser la cara de la compañía.
 % Infraestructura computacional
+Como infraestructura computacional, necesitamos para comenzar un servidor de Amazón EC2. Una base de datos Mongo conectada con Neo4j para guardar y procesar los datos y peticiones de los usuarios. También necesitaremos conectarnos a google maps para obtener el mapa de la ciudad y trazar las rutas de los taxis.
 % local donde se reciban reclamos, se verifiquen los taxistas
 % oficina de trabajo
 
 \subsubsection{Precios del sector}
-Los precios para las carreras de los taxis varían desde los 5 soles hasta los 20 aproximadamente. La idea es que para el transporte de paquetes los precios sean menores que el transporte de personas, ya que en un mismo taxi se pueden llevar varios paquetes o incluso un cliente.
+Los precios para las carreras de los taxis varían desde los 5 soles hasta los 20 aproximadamente. El precio de courier interprovincial con OLVA courier varía entre 20 y 100 soles. El precio de hacer envíos con taxitel es el mismo que el de transporte de personas. Y el precio de delivery de algunas empresas como pizzerias es gratuito a partir de cierto monto de compra (20 soles normalmente).
 % precio de los taxis
 % precio del mandadito
 % precio de olva courier
@@ -63,7 +68,7 @@ Los precios para las carreras de los taxis varían desde los 5 soles hasta los 2
 % precio de taxitel courier
 
 \subsubsection{Márgenes de la industria}
-Se espera cobrar un 10\% del precio total pagado por los clientes. El otro 90\% se quedará con el taxista para su propio beneficio y mantención de su vehículo, así como el gasto de la gasolina.
+Es complicado calcular el margen de ganancia de los taxistas, puesto que depende de si el carro es propio o alquilado, si está hipotecado y ya está totalmente pagado. Depende del consumo del vehículo e incluso del tipo de conducción del taxista y el mantenimiento que se le brinda al vehículo.
 % cuanto ganan los taxistas
 % cuanto ganan olva courier, mandadito, taxitel, etc
 
@@ -138,16 +143,16 @@ La información del cliente sera enviada al conductor y al final del día, toda 
 \subsubsection{Tecnología Investigación y desarrollo}
 El área de TI, sera el encargado de desarrollar software que mejore el servicio de paquetería o que amplié el campo laboral. Nuestros trabajos futuros serán:
 \begin{itemize}
-    \item Software que permita con una foto tomada a la placa, ver todos los datos del carro y del conductor.
-    \item software que permita enlazarnos con Siri, Cortana para hacer un pedido de movilidad por medio de voz
-    \item Permitir no solo el envió de paquetes, sino también el traslado de personas.
-    \item Permitir el uso compartido de un taxi o movilidad, por medio de una software que brinde la información de cada persona que comparte la movilidad.
+\item Software que permita con una foto tomada a la placa, ver todos los datos del carro y del conductor.
+\item Software que permita enlazarnos con Siri, Cortana para hacer un pedido de movilidad por medio de voz
+\item Permitir no solo el envió de paquetes, sino también el traslado de personas.
+\item Permitir el uso compartido de un taxi o movilidad, por medio de una software que brinde la información de cada persona que comparte la movilidad.
 \end{itemize}
 
 \subsection{Recursos y capacidades de la empresa}
 A continuación se muestra una tabla de recursos que conforman las capacidades de la empresa:
 
-\includegraphics[scale=1.5]{tablaRyC}
+\includegraphics[width=0.8\textwidth]{tablaRyC}
 
 \subsection{Ventaja competitiva actual}
 A continuación se evalúa las ventajas competitivas que harán que la empresa tenga presencia empresarial:
@@ -161,4 +166,5 @@ A continuación se evalúa las ventajas competitivas que harán que la empresa t
 
 \subsection{Estructura organizativa}
 Actualmente se cuenta con una estructura lineal, ya que los gerente son los dueños, pero una vez organizado bien el software se contara con un sistema mono funcional como se ve en la imagen.
-\includegraphics[scale=1.5]{planNegocios}
+
+\includegraphics[width=0.8\textwidth]{planNegocios}
