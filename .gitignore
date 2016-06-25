@@ -1,2 +1,6 @@
 *.log
 *.aux
+main.lof
+main.lot
+main.synctex.gz
+main.toc
