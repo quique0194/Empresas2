@@ -4,15 +4,23 @@
 
 \begin{figure}[htb]
 \centering
-\includegraphics[width=0.8\textwidth]{./img/van_tir}
+\includegraphics[width=1\textwidth]{./img/van_tir}
 \caption{Cálculo del VAN y el TIR} \label{fig:van_tir}
 \end{figure}
 
-Para calcular el VAN (Valor Actual Neto) y el TIR (Tasa Interna de Retorno), asumimos la siguiente información. La duración del proyecto será de 4 años. En primer lugar, no tenemos costos variables, sólamente costos fijos. La suma de nuestros costos fijos (ver sección \ref{sec:costos}) es de S/. 149 112 anuales. Tomamos como inversión inicial esta misma cifra, pues no hace falta comprar equipo especial al inicio del proyecto (se asume que los trabajadores tienen sus propias herramientas de desarrollo).
+\begin{figure}[htb]
+\centering
+\includegraphics[width=0.7\textwidth]{./img/taxis}
+\caption{Crecimiento del número de clientes taxistas} \label{fig:taxis}
+\end{figure}
 
-Para calcular los ingresos, es muy importante el dato de que hay más de 30 mil taxis en Arequipa. Para efectos prácticos nosotros redondeamos esta cifra a 30 mil exactos. Nuestra proyección de crecimiento nos dice que durante el primer año, un 2\% de taxistas utilizarán nuestra aplicación, para el segundo año serán un 6\%, y para el tercer y cuarto año serán un 20\% y 30\% respectivamente. Luego, el número promedio de carreras diarias de un taxista es de 10. Si cobramos una comisión equivalente a S/. 0.50 por cada carrera, entonces nuestra ganancia promedio al día por taxista que usa nuestra aplicació es de S/. 5.00. Tomaremos como ejemplo el primer año, donde deberíamos tener el 2\% de taxistas trabajando con nosotros, eso es un total de 600 taxistas. Luego, las ganancias por taxista son de S/. 5 diarios que multiplicado por los 600 taxistas y los 365 días del año nos da un bonito S/. 1 095 000.00 que son los ingresos del primer año. Los ingresos de los años siguientes se calculan de forma análoga.
+Para calcular el VAN (Valor Actual Neto) y el TIR (Tasa Interna de Retorno), asumimos la siguiente información. La duración del proyecto será de 4 años. La suma de nuestros costos fijos (ver sección \ref{sec:costos}) es de S/217,512.00 los dos primeros años, luego aumenta a S/277,512.00 debido a la inversión en publicidad. Tomamos como inversión inicial S/180,000.00 que es el costo necesario para contratar 5 programadores más, ya que durante el primer año del proyecto se necesitará mucho esfuerzo en el desarrollo de la aplicación. No hace falta comprar equipo especial al inicio del proyecto, pues se asume que los trabajadores tienen sus propias herramientas de desarrollo. Respecto a los gastos variables, sólo tenemos las calcolmanías para los taxis, que calculamos multiplicando el número de taxis clientes por S/10.00; es importante notar que cada año se le renuevan las calcomanías a nuestros clientes taxistas.
 
-Asumimos una tasa impositiva de 30\% y una tasa de descuento de 20\% para calcular el VAN. El resto sólo son fórmulas.
+Para calcular los ingresos, partimos del dato de que hay más de 30 mil taxis en Arequipa. Para efectos prácticos nosotros redondeamos esta cifra a 30 mil exactos. Nuestra proyección (Figura \ref{fig:taxis}) de crecimiento nos dice que durante el primer año, un 2\% de taxistas utilizarán nuestra aplicación, para el segundo año serán un 6\%, y para el tercer y cuarto año serán un 10\% y 15\% respectivamente. Luego, el número promedio de carreras diarias de un taxista será de 1, más adelante veremos como se justifica esto. Si cobramos una comisión equivalente a S/. 0.50 por cada carrera, entonces nuestra ganancia promedio al día por taxista que usa nuestra aplicació es de S/0.50. Tomaremos como ejemplo el primer año, donde deberíamos tener el 2\% de taxistas trabajando con nosotros, eso es un total de 600 taxistas. Luego, las ganancias por taxista son de S/0.50 diarios que multiplicado por los 600 taxistas y los 365 días del año nos da un bonito S/109,500.00 que son los ingresos del primer año. Los ingresos de los años siguientes se calculan de forma análoga.
+
+Para justificar el hecho de que cada taxista hará en promedio una carrera diaria, nos basamos en el número total de PYMES en la ciudad de Arequipa. Sabiendo que hay aproximadamente 66 000 PYMES en Arequipa, podemos especular que al día un 10\% de ellas harán por lo menos un envío. Obviamente estamos hablando de un momento cuando la idea de enviar paquetes por medio de EasyCourier está más o menos difundida, gracias a nuestras inversiones en publicidad. Al cuarto año tendremos 4500 taxistas para cubrir 6600 envíos diarios, de ahí obtenemos que cada taxista hará en promedio un envío diario.
+
+Asumimos una tasa impositiva de 30\% y una tasa de descuento de 20\% para calcular el VAN. El resto sólo son fórmulas. Finalmente obtenemos un TIR de 34.4\%.
 
 \section{Cronograma de implementación}
 
